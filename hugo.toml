@@ -1,71 +1,84 @@
-baseurl      = "localhost"
-title        = "Lorenzo Pirro"
+baseurl = "localhost"
+title = "Lorenzo Pirro"
 languageCode = "en-us"
-theme        = "hello-friend-ng"
-paginate     = 10
+theme = "hello-friend-ng"
+paginate = 10
+
+[author]
+name = "Lorenzo Pirro"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+dateform = "Jan 2, 2006"
+dateformShort = "Jan 2"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
 
-  # Subtitle for home
-  homeSubtitle = """CS, Software Dev. Language and compilers enthusiast. 
+# Subtitle for home
+homeSubtitle = """CS, Software Dev. Language and compilers enthusiast. 
   Guitarist from a long time. 
   Sport lover and School CS/Math helper🚀"""
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+disableReadOtherPosts = false
 
-  # Enable sharing buttons, if you like
-  enableSharingButtons = true
-  
-  # Show a global language switcher in the navigation bar
-  enableGlobalLanguageMenu = true
+# Enable sharing buttons, if you like
+enableSharingButtons = true
 
-  # Metadata mostly used in document's head
-  description = "My new homepage or blog"
-  keywords = "homepage, blog"
-  images = [""]
+# Show a global language switcher in the navigation bar
+enableGlobalLanguageMenu = true
 
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/Metalymph"
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/lorenzopirro94"
-  [[params.social]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/lorenzopirro/"
-  [[params.social]]
-    name = "email"
-    url = "mailto:lorenzopirro1@gmail.com"
+# Metadata mostly used in document's head
+description = "My new homepage or blog"
+keywords = "homepage, blog"
+images = [""]
+
+[[params.social]]
+name = "github"
+url = "https://github.com/Metalymph"
+[[params.social]]
+name = "twitter"
+url = "https://twitter.com/lorenzopirro94"
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/lorenzopirro/"
+[[params.social]]
+name = "email"
+url = "mailto:lorenzopirro1@gmail.com"
+
+[params.footer]
+  trademark = "2023"
+  author = "Lorenzo Pirro"
+  copyright = "2023"
+  bottomText = ["Powered by Hugo", "Made with love for CS and Math by Lorenzo Pirro"]
 
 [taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
+category = "blog"
+tag = "tags"
+series = "series"
 
 [languages]
-  [languages.en]
-    title = "Lorenzo Pirro"
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+[languages.en]
+title = "Lorenzo Pirro"
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-    [languages.en.params.logo]
-      logoText = "Hello, welcome on my page!"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+[languages.en.params.logo]
+logoText = "Hi, welcome on my page!"
+logoHomeLink = "/"
+# or
+#
+# path = "/img/your-example-logo.svg"
+# alt = "Your example logo alt text"
 
-  # And you can even create generic menu
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+# And you can even create generic menu
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/posts"
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about"
 
 [module]
-  [[module.imports]]
-    path = 'github.com/hugomods/katex'
+[[module.imports]]
+path = 'github.com/hugomods/katex'

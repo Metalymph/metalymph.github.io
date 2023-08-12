@@ -1,6 +1,6 @@
 ---
-title: "Math_basics"
-date: 2023-08-11T17:59:11+02:00
+title: "Math basics"
+date: 2023-08-11
 draft: true
 toc: false
 images:
@@ -8,6 +8,10 @@ tags:
   - math
 ---
 
+Hi dear readers! Welcome on my first cheatsheet on math analysis.\
+Today we'll remember how to calculate a second or third order linear equation or disequation.
+We will add a  quick reference on notable products! 🙂\
+Let's go!
 
 ### Second order linear equations
 given the following assumptions:
