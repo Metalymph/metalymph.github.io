@@ -1,7 +1,6 @@
 ---
 title: "Limits and continuity"
 date: 2023-08-13
-draft: true
 toc: false
 math: true
 images:
@@ -85,3 +84,9 @@ so, with $a = e$:
     $$\lim_{x\to\ \pm\infty}(1+\frac{1}{x})^x = e;  \lim_{f(x) \to \pm\infty}(1+\frac{1}{f(x)})^{f(x)} = e$$
 
 ### Conclusions
+Now you have a good set of sheets to resolve some limits and i hope it will be useful 🙂!
+Thanks you reading and if you like my contents, follow me on this simple, comment below, site or contact me if you need a specific help. I will publish more contents based also on the comments according with my time.
+
+See you at soon 👋,
+
+Lorenzo Pirro

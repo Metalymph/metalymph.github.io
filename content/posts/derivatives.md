@@ -13,6 +13,8 @@ tags:
 - [Derivatives between two functions: constant, sum, product, ratio](#derivatives-between-two-functions-constant-sum-product-ratio)
 - [Min and Max](#min-and-max)
 - [Convexity, Concavity and Inflaction points](#convexity-concavity-and-inflaction-points)
+- [Taylor's serie method](#taylors-serie-method)
+- [Conclusions](#conclusions)
 
 ### What is a derivative?
 
@@ -37,5 +39,15 @@ Again like in [previous lesson](/posts/limits/) for limits, sum, difference, pro
 Calculating the second degree derivative and discussing it with $f''(x) > 0$ you will find the signes. Negative sign represents the *concavity* while positive sign the *convessity*.
 With $f''(x) = 0$ we find the *inflaction points*.  In these points, the $f(x)$ in not derivable.
 
+### Taylor's serie method
+
 **Full function study**
 About the full study the best guide with all the steps is [here](https://www.youmath.it/lezioni/analisi-matematica/studio-di-funzioni-grafico.html "{rel='nofollow'}").
+
+### Conclusions
+Now you have a good set of sheets to resolve your derivatives and i hope it will be useful 🙂!
+Thanks you reading and if you like my contents, follow me on this simple, comment below, site or contact me if you need a specific help. I will publish more contents based also on the comments according with my time.
+
+See you at soon 👋,
+
+Lorenzo Pirro

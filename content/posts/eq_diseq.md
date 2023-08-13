@@ -1,7 +1,6 @@
 ---
 title: "Equations and disequations"
 date: 2023-08-11
-draft: true
 toc: false
 math: true
 images:
