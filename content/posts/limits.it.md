@@ -9,14 +9,16 @@ tags:
   - math
 ---
 
-- [Introduction](#introduction)
-- [Continuity](#continuity)
-- [Limits forms](#limits-forms)
-- [Theorems](#theorems)
+- [Introductione](#introductione)
+- [Continuità](#continuità)
+- [Forme dei limiti](#forme-dei-limiti)
+- [Teoremi rapidi](#teoremi-rapidi)
 
-### Introduction
+### Introductione
+Un concetto essentiale dell'analisi matematica e dello studio della funzione in particolare,
+è rappresentato dai limiti. Vediamo in questa lezione lampo di che si tratta. Pronti? 
 
-### Continuity
+### Continuità
 
 If $f(x)$ is defined and *continuous* in the limit segment we want to calculate, than we can proceed. Put the limit value inside function and see if the result is an *L* $\in \mathbb{R}$.
 A function is continue in a point if the limit from left and right gives the same value in $\mathbb{R}$.
@@ -26,61 +28,68 @@ A function is continue in a range (or the full $\mathbb{R}$)  if it's continue i
 Discontinuity is given by a finite value from the two limits in the same point.
 
 
-### Limits forms
+### Forme dei limiti
 Some limits are deetermined, that is, can be calculated *just-in-time*. Other forms are more complex
 and require the use of a theorem or more passes.
-**Determinated forms**
+**Forme determinate**
 
 If *L* is $[\frac{C}{0^+}], [\frac{C}{0^-}], [\frac{\infty}{0}]$, the limit is $\pm\infty$,
 if *L* is $[\frac{C}{\infty}], [\frac{\infty}{0}]$, the limit is 0
 
-**Undeterminated forms**
+**Forme indeterminate**
 
 If *L* is $[\frac{0}{0}], [\frac{\infty}{\infty}], [\infty-\infty], [0^\infty], [0^0], [1^\infty]$ and more...the limit must be calculated with the right theorem, sometimes challenging...
 
 
-### Theorems
+### Teoremi rapidi
 There are some theorems related to limits, useful to calculate some indeterminated forms. Is important to note that
 **some limits don't exist** and is essential to know if a limit exists in the [function study](#function-study).
 
-**Constant (persistent) sign theorem**
+**Teorema della persistenza del segno**
 
-If:
+Se:
 
 $$\lim_{x\to\ x_{0}} f(x) = l \ne 0$$
 
 than, a surrounding area of $x_{0}$ exists, where **both** $l$ and $f(x)$ are **both** positive or both negative.
 
-![Constant_sign_t.png](./constant_sign_t.png)
-
-**Comparing theorem**
+**Teorema del confronto**
 If you have $ h(x) \le f(x) \le g(x)$ three functions defined in the surrounding area $H$ of $x_{0}$ (not defined in $x_{0}$) so, if in $H$ is always valid:
 
 $$h(x)  \le f(x) \le g(x) $$
 
 than, if the limit for $x\to\ x_{0}$ is $l$, the limit for $f(x)$ is **also** $l$.
 
-**Limit uniqueness theorem**
-If $f(x)$ has limit $l$ for $x\to\ x_{0}$, than $l$ is **unique**.
+**Teorema di unicità del limite**
+Se $f(x)$ ha limite $l$ per $x\to\ x_{0}$, allora $l$ è **unico**.
 
-**Notable limits**
+**Limiti notevoli**
  There are some limits for whom the existence of limit and proofness is battle-tested. They are known and they are all $\frac{0}{0}$ cases, but not the last (Neplero's number, $1^{\infty} $). 
- *N.B:* Not all cases are shown.
+ *N.B:* Non tutti i casi sono descritti.
 
-*    **Logarithmic** function, with $a > 0$ and $a \ne 1$:
+*    **Logaritmica**, con $a > 0$ e $a \ne 1$:
     $$\lim_{x\to\ 0}\frac{log_{a}(1+x)}{x} = \frac{1}{ln(a)};  \lim_{f(x) \to 0}\frac{log_{a}(1+f(x))}{f(x)} = \frac{1}{ln(a)}$$
-    
-so, with $a = e$:
+quindi, sia $a = e$:
     $$\lim_{x\to\ 0}\frac{ln(1+x)}{x} = 1;  \lim_{f(x) \to 0}\frac{ln(1+f(x))}{f(x)} = 1$$  
 
-*    **Exponential** function, with $a > 0$:
+*    **Exponentiale**, with $a > 0$:
     $$\lim_{x\to\ 0}\frac{a^x-1}{x} = ln(a);  \lim_{f(x) \to 0}\frac{a^{f(x)}-1}{f(x)} = ln(a)$$
 
-so, with $a = e$:
+quindi, sia $a = e$:
     $$\lim_{x\to\ 0}\frac{e^x-1}{x} = 1;  \lim_{f(x) \to 0}\frac{e^{f(x)}-1}{f(x)} = 1$$
 
-*    **Power with difference** with $c \in \mathbb{R}$:
+*    **Potenza con differenza** con $c \in \mathbb{R}$:
     $$\lim_{x\to\ 0}\frac{(1+x)^c-1}{x} = c;  \lim_{f(x) \to 0}\frac{(1+f(x))^c-1}{f(x)} = c$$
 
-*    **Neplero's number**
+*    **Numero di Neplero**
     $$\lim_{x\to\ \pm\infty}(1+\frac{1}{x})^x = e;  \lim_{f(x) \to \pm\infty}(1+\frac{1}{f(x)})^{f(x)} = e$$
+
+
+## Conclusioni
+
+Grazie per il tuo tempo dedicatomi e se ti è piaciuto il contenuo continua a seguirmi
+nei prossimi post, commenta qui sotto se vuoi, o contattami se hai bisogno di un aiuto specifico. Pubblicherò molti altri contenuti nel mio tempo libero.
+
+A presto 👋,
+
+Lorenzo Pirro

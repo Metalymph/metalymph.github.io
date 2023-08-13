@@ -27,12 +27,13 @@ di qualunque ordine essa sia. Gli argomenti potrebbero sembrare futili, ma, tutt
 dipende da  come questi vengono esposti 🙂. Cominciamo!
 
 ### Equazioni e disequazioni lineari del primo ordine
-We start easily remembering that a first order equation in the form:
+Iniziamo facilmente ricordando che un'equazione di primo grado è  della forma:
 $$ ax + b = 0 $$
-has one and  only one solution and we can find it simply moving the factors and executing basic algebraic operations like this:
+ha una ed una sola soluzione e si calcola semplicemente spostando i membri e gestendo
+i segni di conseguenza, invertendoli se si moltiplica o divide per uno stesso fattore. Dunque:
 $$ ax = -b; x = -\frac{b}{a}$$
-And for disequations? Easy! We need only to reverse the sign < to > or viceversa if we apply to both members an algebraic operation
-like division or multiplication, et voilà!
+E per le disequazioni? Facile! Abbiamo solo bisogno di cambiare il segno a seconda delle
+condizioni dete sopra per l'equazione.
 
 ---
 
@@ -61,7 +62,7 @@ $ax^2+bx+c$ e $\Delta = b^2 - 4ac,$ per:
 ---
 
 ### Prodotti notevoli
-There are some *composed polynomials* which have a fixed (proofed) solutions. Let's take a look:
+Esistono alcune forme *composte polinomiali* che hanno delle soluzioni dimostrate. Diamogli uno sguardo:
 
 *    $(a-b)^2 = a^2+2ab+b^2$ 
 *    $(a+b+c)^2 = a^2+b^2+2ab+2ac+2bc$
@@ -72,16 +73,16 @@ There are some *composed polynomials* which have a fixed (proofed) solutions. Le
 *    $a^3+b^3 = (a+b)(a^2-ab+b^2)$
 *    $a^3-b^3 = (a-b)(a^2+ab+b^2)$
 
-They will be one of the best weapons for you in MANY circumnstances...
+Saranno una delle armi migliori in MOLTE circostanze...
 
 ---
 
 ### Equazioni lineari di ordine superiore al secondo
-If no notable product is found (look above), than we can **try** the *Ruffini's Method*. Yes, try, because no result is guaranteed. We shall have at end of the process:
+Se nessun prodotto notevole compare (vedi sopra), allora possiamo **provare** *il mettodo di Ruffini*. Si, provare, in quanto non garantisce un risulato. Dovremmo averee al termine del processo:
 
-  $$P(x)=(x-a)Q(x)$$ with $Q(x)$ as a polinome with $P(x)$-1 order.
+  $$P(x)=(x-a)Q(x)$$ con $Q(x)$ polinomio di ordine $P(x)$-1.
 
-1) We need to calculate $f(x)$ substituting $x$ with each divisor of $c$ until we take the result 0 (satisfied equation).
+1) Abbiamo bisogno di calcolare $f(x)$ substituting $x$ with each divisor of $c$ until we take the result 0 (satisfied equation).
 2) When found, apply the matrix method ([see here](https://www.youmath.it/lezioni/algebra-elementare/polinomi/272-la-regola-di-ruffini.html)). The result **must be** 0 for the known term.
 3) Write the result in the given form and apply the method again if necessary (but first, see if you have a [Notable products](#notable-products)).
 
@@ -96,8 +97,10 @@ L'ultimo randez-vouz che volevo trattare riguarda i logaritmi. Ecco un insieme d
 *    $\log{_a}{b} = \frac{1}{\log{_b}{a}}$ (inversione)
 
 ### Conclusioni
-Now you have a good set of sheets to resolve many equations and disequations and i hope it will be useful 🙂!
-Thanks you reading and if you like my contents, follow me on this simple, comment below, site or contact me if you need a specific help. I will publish more contents based also on the comments according with my time.
+Ora hai gli strumenti per risolvere equazioni e disequazioni di ogni ordine e spero
+ti possano essere utili 🙂!
+Grazie per il tuo tempo dedicatomi e se ti è piaciuto il contenuo continua a seguirmi
+nei prossimi post, commenta qui sotto se vuoi, o contattami se hai bisogno di un aiuto specifico. Pubblicherò molti altri contenuti nel mio tempo libero.
 
 A presto 👋,
 

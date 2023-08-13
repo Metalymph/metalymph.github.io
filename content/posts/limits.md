@@ -13,6 +13,7 @@ tags:
 - [Continuity](#continuity)
 - [Limits forms](#limits-forms)
 - [Theorems](#theorems)
+- [Conclusions](#conclusions)
 
 ### Introduction
 
@@ -51,8 +52,6 @@ $$\lim_{x\to\ x_{0}} f(x) = l \ne 0$$
 
 than, a surrounding area of $x_{0}$ exists, where **both** $l$ and $f(x)$ are **both** positive or both negative.
 
-![Constant_sign_t.png](./constant_sign_t.png)
-
 **Comparing theorem**
 If you have $ h(x) \le f(x) \le g(x)$ three functions defined in the surrounding area $H$ of $x_{0}$ (not defined in $x_{0}$) so, if in $H$ is always valid:
 
@@ -84,3 +83,5 @@ so, with $a = e$:
 
 *    **Neplero's number**
     $$\lim_{x\to\ \pm\infty}(1+\frac{1}{x})^x = e;  \lim_{f(x) \to \pm\infty}(1+\frac{1}{f(x)})^{f(x)} = e$$
+
+### Conclusions

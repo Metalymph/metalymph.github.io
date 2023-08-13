@@ -13,6 +13,7 @@ tags:
 - [Derivatives between two functions: constant, sum, product, ratio](#derivatives-between-two-functions-constant-sum-product-ratio)
 - [Min and Max](#min-and-max)
 - [Convexity, Concavity and Inflaction points](#convexity-concavity-and-inflaction-points)
+- [Conclusioni](#conclusioni)
 
 ### Definizione di derivata?
 
@@ -39,3 +40,12 @@ With $f''(x) = 0$ we find the *inflaction points*.  In these points, the $f(x)$ 
 
 **Full function study**
 About the full study the best guide with all the steps is [here](https://www.youmath.it/lezioni/analisi-matematica/studio-di-funzioni-grafico.html "{rel='nofollow'}").
+
+### Conclusioni
+
+Grazie per il tuo tempo dedicatomi e se ti è piaciuto il contenuo continua a seguirmi
+nei prossimi post, commenta qui sotto se vuoi, o contattami se hai bisogno di un aiuto specifico. Pubblicherò molti altri contenuti nel mio tempo libero.
+
+A presto 👋,
+
+Lorenzo Pirro
