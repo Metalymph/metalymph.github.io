@@ -19,7 +19,7 @@ For friends also a special wines researcher.
 
 I've started this simple site for multiple reasons. The first was to show a simple idea of me yes, but i want also to show to my students all my support for them!
 I will write about simple math lessons in cheatsheet format, to have a quick reference on a specific argument, or an example for a specific use case, hoping it will
-be useful to follow and replicate 😉.
+be useful to follow and replicate 😉. I will try to transate all in italian with my time.  
 In the menu you will find my posts; if you can please give it a try, and le me know what you think about EVERYTHING! I will do my best to get better on my work.\
 If you want to write me, on my homewpage i've many ways for this.\
 I appreciate your time, really thanks a lot!

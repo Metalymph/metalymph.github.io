@@ -1,5 +1,5 @@
 ---
-title: "Limits and continuity"
+title: "Limiti e continuità"
 date: 2023-08-13
 draft: true
 toc: false
