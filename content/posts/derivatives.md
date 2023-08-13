@@ -11,6 +11,7 @@ tags:
 
 - [What is a derivative?](#what-is-a-derivative)
 - [Derivatives between two functions: constant, sum, product, ratio](#derivatives-between-two-functions-constant-sum-product-ratio)
+- [Min and Max](#min-and-max)
 - [Convexity, Concavity and Inflaction points](#convexity-concavity-and-inflaction-points)
 
 ### What is a derivative?
@@ -28,6 +29,9 @@ Again like in [previous lesson](/posts/limits/) for limits, sum, difference, pro
 * $\frac{d}{dx}[f(x)g(x)] = f'(x)g(x)+f(x)g'(x)$ (*product*)
 * $\frac{d}{dx}[\frac{f(x)}{g(x)}] = \frac{f'(x)g(x)-f(x)g'(x)}{g^2(x)}$ (*ratio*)
 * $\frac{d}{dx}[g(f(x))] = g'(f(x))f'(x)$ (composed)
+
+### Min and Max
+
 
 ### Convexity, Concavity and Inflaction points
 Calculating the second degree derivative and discussing it with $f''(x) > 0$ you will find the signes. Negative sign represents the *concavity* while positive sign the *convessity*.
