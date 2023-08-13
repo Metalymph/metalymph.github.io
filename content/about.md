@@ -21,6 +21,7 @@ I've started this simple site for multiple reasons. The first was to show a simp
 I will write about simple math lessons in cheatsheet format, to have a quick reference on a specific argument, or an example for a specific use case, hoping it will
 be useful to follow and replicate 😉.
 In the menu you will find my posts; if you can please give it a try, and le me know what you think about EVERYTHING! I will do my best to get better on my work.\
+If you want to write me, on my homewpage i've many ways for this.\
 I appreciate your time, really thanks a lot!
 
 *Lorenzo Pirro*

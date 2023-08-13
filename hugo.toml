@@ -44,6 +44,9 @@ url = "https://www.linkedin.com/in/lorenzopirro/"
 [[params.social]]
 name = "email"
 url = "mailto:lorenzopirro1@gmail.com"
+[[params.social]]
+name = "telegram"
+url = "https://t.me/LorenzoPirro"
 
 [params.footer]
   trademark = "2023"
@@ -68,6 +71,13 @@ logoHomeLink = "/"
 #
 # path = "/img/your-example-logo.svg"
 # alt = "Your example logo alt text"
+[languages.it]
+title = "Lorenzo Pirro"
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+[languages.it.params.logo]
+logoText = "Benvenuto sulla mia pagina!"
+logoHomeLink = "/"
 
 # And you can even create generic menu
 [[menu.main]]
