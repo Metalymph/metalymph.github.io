@@ -1,7 +1,6 @@
 ---
 title: "About me"
 date: 2023-08-12
-draft: true
 toc: false
 images:
 ---

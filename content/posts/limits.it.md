@@ -1,7 +1,6 @@
 ---
 title: "Limiti e continuità"
 date: 2023-08-13
-draft: true
 toc: false
 math: true
 images:
@@ -13,6 +12,7 @@ tags:
 - [Continuità](#continuità)
 - [Forme dei limiti](#forme-dei-limiti)
 - [Teoremi rapidi](#teoremi-rapidi)
+- [Conclusioni](#conclusioni)
 
 ### Introductione
 Un concetto essentiale dell'analisi matematica e dello studio della funzione in particolare,
@@ -20,30 +20,30 @@ Un concetto essentiale dell'analisi matematica e dello studio della funzione in 
 
 ### Continuità
 
-If $f(x)$ is defined and *continuous* in the limit segment we want to calculate, than we can proceed. Put the limit value inside function and see if the result is an *L* $\in \mathbb{R}$.
-A function is continue in a point if the limit from left and right gives the same value in $\mathbb{R}$.
-That is:
+Se $f(x)$ è definita e *continuous* nel segmeento limite che vogliamo calcolare, allora possiamo procedere. Posizioniamo il valore del limite all'interno della funzione e vediamo
+se il risultato *L* $\in \mathbb{R}$.
+Una funzione è continua in un  punto se il limite da destra e sinistro sono ambedue in $\mathbb{R}$.
+Cioè:
 $$\lim_{x\to\ x_{0}^-} f(x) = L = \lim_{x\to\ x_{0}^+} f(x)$$
-A function is continue in a range (or the full $\mathbb{R}$)  if it's continue in all the range's points. Important to note that given two functions, the following operations give an other continue function: $$f(x) g(x),  \frac{f(x)}{g(x)}, f(x)+g(x),  f(x)-g(x),  g(f(x))$$
-Discontinuity is given by a finite value from the two limits in the same point.
+Una funzione è continua in un intervallo (o su tutto $\mathbb{R}$)  se è coninua in tutti i punti dell'intervallo. Importante notare che date due funzioni continue, le seguenti relazioni forniranno a loro volta una funzione continua: $$f(x) g(x),  \frac{f(x)}{g(x)}, f(x)+g(x),  f(x)-g(x),  g(f(x))$$
+La discontinuità è data da un valore finito fornito dai due limiti implicati nello stesso punto. Cioè se lo troviamo, allora la funzione è discontinua in quel punto!
 
 
 ### Forme dei limiti
-Some limits are deetermined, that is, can be calculated *just-in-time*. Other forms are more complex
-and require the use of a theorem or more passes.
+Alcuni limiti sono determinati, cioè, calcolabili *just-in-time*. Altre forme risultano più complesse  e richiedono diversi passaggi, come l'impiego di un bel teorema 😅.
 **Forme determinate**
 
-If *L* is $[\frac{C}{0^+}], [\frac{C}{0^-}], [\frac{\infty}{0}]$, the limit is $\pm\infty$,
-if *L* is $[\frac{C}{\infty}], [\frac{\infty}{0}]$, the limit is 0
+Se *L* è $[\frac{C}{0^+}], [\frac{C}{0^-}], [\frac{\infty}{0}]$, il limite è $\pm\infty$,
+se *L* è $[\frac{C}{\infty}], [\frac{\infty}{0}]$, il limite è 0
 
 **Forme indeterminate**
 
-If *L* is $[\frac{0}{0}], [\frac{\infty}{\infty}], [\infty-\infty], [0^\infty], [0^0], [1^\infty]$ and more...the limit must be calculated with the right theorem, sometimes challenging...
+Se *L* è $[\frac{0}{0}], [\frac{\infty}{\infty}], [\infty-\infty], [0^\infty], [0^0], [1^\infty]$ ed altre...il limite deve essere calcolato col metodo *"adeguato"*, non sempre possibile...
 
 
 ### Teoremi rapidi
-There are some theorems related to limits, useful to calculate some indeterminated forms. Is important to note that
-**some limits don't exist** and is essential to know if a limit exists in the [function study](#function-study).
+Esistono alcuni teoremi sui  limiti, utili per calcolare delle forme indeterminate. È importante notare che
+**alcuni limiti non esistono** eed è essenziale sapere se il limite esiste ai fini dello *studio della funzione*, che tratteremo in un post successivo.
 
 **Teorema della persistenza del segno**
 
@@ -51,14 +51,14 @@ Se:
 
 $$\lim_{x\to\ x_{0}} f(x) = l \ne 0$$
 
-than, a surrounding area of $x_{0}$ exists, where **both** $l$ and $f(x)$ are **both** positive or both negative.
+allora un'intorno di $x_{0}$ esiste, dove **entrambi** $l$ e $f(x)$ sono **entrambi** positive or negative.
 
 **Teorema del confronto**
-If you have $ h(x) \le f(x) \le g(x)$ three functions defined in the surrounding area $H$ of $x_{0}$ (not defined in $x_{0}$) so, if in $H$ is always valid:
+Se si hanno $ h(x) \le f(x) \le g(x)$ tre funzioni definite in $H$ di $x_{0}$ (non definito in $x_{0}$) allora, se in $H$ è sempre vero che:
 
 $$h(x)  \le f(x) \le g(x) $$
 
-than, if the limit for $x\to\ x_{0}$ is $l$, the limit for $f(x)$ is **also** $l$.
+allora, se il limite per $x\to\ x_{0}$ è $l$, il limite per $f(x)$ è **anche** $l$.
 
 **Teorema di unicità del limite**
 Se $f(x)$ ha limite $l$ per $x\to\ x_{0}$, allora $l$ è **unico**.
@@ -85,7 +85,7 @@ quindi, sia $a = e$:
     $$\lim_{x\to\ \pm\infty}(1+\frac{1}{x})^x = e;  \lim_{f(x) \to \pm\infty}(1+\frac{1}{f(x)})^{f(x)} = e$$
 
 
-## Conclusioni
+### Conclusioni
 
 Grazie per il tuo tempo dedicatomi e se ti è piaciuto il contenuo continua a seguirmi
 nei prossimi post, commenta qui sotto se vuoi, o contattami se hai bisogno di un aiuto specifico. Pubblicherò molti altri contenuti nel mio tempo libero.
