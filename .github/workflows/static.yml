@@ -1,4 +1,4 @@
-name: Deploy my personal ugo site to Pages
+name: Deploy Lorenzo Pirro page
 
 on:
   push:
