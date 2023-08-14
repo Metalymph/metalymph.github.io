@@ -92,7 +92,7 @@ defaultContentLanguageInSubdir = true
     title = 'Lorenzo Pirro'
     weight = 1
     [languages.it.params]
-      subtitle = 'okkkk'
+      subtitle = ''
   [languages.en]
     contentDir = 'content'
     disabled = false
@@ -102,7 +102,7 @@ defaultContentLanguageInSubdir = true
     title = 'Lorenzo Pirro'
     weight = 2
     [languages.en.params]
-      subtitle = 'Reference, Tutorials, and Explanations'
+      subtitle = ''
 
 # And you can even create generic menu
 [[menu.main]]
