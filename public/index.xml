@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lorenzo Pirro</title>
+    <link>localhost/</link>
+    <description>Recent content on Lorenzo Pirro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 13 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="localhost/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Limits and continuity</title>
+      <link>localhost/posts/limits/</link>
+      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/posts/limits/</guid>
+      <description>Introduction Continuity Limits forms Theorems Conclusions Introduction Continuity If $f(x)$ is defined and continuous in the limit segment we want to calculate, than we can proceed. Put the limit value inside function and see if the result is an L $\in \mathbb{R}$. A function is continue in a point if the limit from left and right gives the same value in $\mathbb{R}$. That is: $$\lim_{x\to\ x_{0}^-} f(x) = L = \lim_{x\to\ x_{0}^+} f(x)$$ A function is continue in a range (or the full $\mathbb{R}$) if it&amp;rsquo;s continue in all the range&amp;rsquo;s points.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>localhost/about/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/about/</guid>
+      <description>Hi! Thanks so much for reading about me 🤩 I&amp;rsquo;m a CS &amp;amp; software developer with a focus on backend systems and programming languages. I like experimenting and learn with new languages and technologies.
+For my degree I&amp;rsquo;ve discussed a model based on types derivations on linear aggregate type-system with explicit ownership, in order to proof Rust borrow checker safety in single thread modality (far before the release of the official Rust tech spec).</description>
+    </item>
+    
+    <item>
+      <title>Equations and disequations</title>
+      <link>localhost/posts/eq_diseq/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/posts/eq_diseq/</guid>
+      <description>Introduction First order linear equation and disequation Second order linear equations Second order linear disequations Notable products Third order or more linear equations Logarithms Conclusions Introduction Hi dear readers! Welcome on my first cheatsheet on math analysis.
+Today we&amp;rsquo;ll remember how to calculate a second or third order linear equation or disequation. We will add a quick reference on notable products! 🙂
+Let&amp;rsquo;s go!
+First order linear equation and disequation We start easily remembering that a first order equation in the form: $$ ax + b = 0 $$ has one and only one solution and we can find it simply moving the factors and executing basic algebraic operations like this: $$ ax = -b; x = -\frac{b}{a}$$ And for disequations?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,188 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Lorenzo Pirro</title>
+        <link>localhost/it/posts/</link>
+        <description>Recent content in Posts on Lorenzo Pirro</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>it-IT</language>
+        <lastBuildDate>Sun, 13 Aug 2023 00:00:00 +0000</lastBuildDate>
+        <atom:link href="localhost/it/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Limiti e continuità</title>
+            <link>localhost/it/posts/limits/</link>
+            <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
+            
+            <guid>localhost/it/posts/limits/</guid>
+            <description>Introductione Continuità Forme dei limiti Teoremi rapidi Conclusioni Introductione Un concetto essentiale dell&amp;rsquo;analisi matematica e dello studio della funzione in particolare, è rappresentato dai limiti. Vediamo in questa lezione lampo di che si tratta. Pronti?
+Continuità Se $f(x)$ è definita e continuous nel segmeento limite che vogliamo calcolare, allora possiamo procedere. Posizioniamo il valore del limite all&amp;rsquo;interno della funzione e vediamo se il risultato L $\in \mathbb{R}$. Una funzione è continua in un punto se il limite da destra e sinistro sono ambedue in $\mathbb{R}$.</description>
+            <content type="html"><![CDATA[<ul>
+<li><a href="#introductione">Introductione</a></li>
+<li><a href="#continuit%C3%A0">Continuità</a></li>
+<li><a href="#forme-dei-limiti">Forme dei limiti</a></li>
+<li><a href="#teoremi-rapidi">Teoremi rapidi</a></li>
+<li><a href="#conclusioni">Conclusioni</a></li>
+</ul>
+<h3 id="introductione">Introductione</h3>
+<p>Un concetto essentiale dell&rsquo;analisi matematica e dello studio della funzione in particolare,
+è rappresentato dai limiti. Vediamo in questa lezione lampo di che si tratta. Pronti?</p>
+<h3 id="continuità">Continuità</h3>
+<p>Se $f(x)$ è definita e <em>continuous</em> nel segmeento limite che vogliamo calcolare, allora possiamo procedere. Posizioniamo il valore del limite all&rsquo;interno della funzione e vediamo
+se il risultato <em>L</em> $\in \mathbb{R}$.
+Una funzione è continua in un  punto se il limite da destra e sinistro sono ambedue in $\mathbb{R}$.
+Cioè:
+$$\lim_{x\to\ x_{0}^-} f(x) = L = \lim_{x\to\ x_{0}^+} f(x)$$
+Una funzione è continua in un intervallo (o su tutto $\mathbb{R}$)  se è coninua in tutti i punti dell&rsquo;intervallo. Importante notare che date due funzioni continue, le seguenti relazioni forniranno a loro volta una funzione continua: $$f(x) g(x),  \frac{f(x)}{g(x)}, f(x)+g(x),  f(x)-g(x),  g(f(x))$$
+La discontinuità è data da un valore finito fornito dai due limiti implicati nello stesso punto. Cioè se lo troviamo, allora la funzione è discontinua in quel punto!</p>
+<h3 id="forme-dei-limiti">Forme dei limiti</h3>
+<p>Alcuni limiti sono determinati, cioè, calcolabili <em>just-in-time</em>. Altre forme risultano più complesse  e richiedono diversi passaggi, come l&rsquo;impiego di un bel teorema 😅.
+<strong>Forme determinate</strong></p>
+<p>Se <em>L</em> è $[\frac{C}{0^+}], [\frac{C}{0^-}], [\frac{\infty}{0}]$, il limite è $\pm\infty$,
+se <em>L</em> è $[\frac{C}{\infty}], [\frac{\infty}{0}]$, il limite è 0</p>
+<p><strong>Forme indeterminate</strong></p>
+<p>Se <em>L</em> è $[\frac{0}{0}], [\frac{\infty}{\infty}], [\infty-\infty], [0^\infty], [0^0], [1^\infty]$ ed altre&hellip;il limite deve essere calcolato col metodo <em>&ldquo;adeguato&rdquo;</em>, non sempre possibile&hellip;</p>
+<h3 id="teoremi-rapidi">Teoremi rapidi</h3>
+<p>Esistono alcuni teoremi sui  limiti, utili per calcolare delle forme indeterminate. È importante notare che
+<strong>alcuni limiti non esistono</strong> eed è essenziale sapere se il limite esiste ai fini dello <em>studio della funzione</em>, che tratteremo in un post successivo.</p>
+<p><strong>Teorema della persistenza del segno</strong></p>
+<p>Se:</p>
+<p>$$\lim_{x\to\ x_{0}} f(x) = l \ne 0$$</p>
+<p>allora un&rsquo;intorno di $x_{0}$ esiste, dove <strong>entrambi</strong> $l$ e $f(x)$ sono <strong>entrambi</strong> positive or negative.</p>
+<p><strong>Teorema del confronto</strong>
+Se si hanno $ h(x) \le f(x) \le g(x)$ tre funzioni definite in $H$ di $x_{0}$ (non definito in $x_{0}$) allora, se in $H$ è sempre vero che:</p>
+<p>$$h(x)  \le f(x) \le g(x) $$</p>
+<p>allora, se il limite per $x\to\ x_{0}$ è $l$, il limite per $f(x)$ è <strong>anche</strong> $l$.</p>
+<p><strong>Teorema di unicità del limite</strong>
+Se $f(x)$ ha limite $l$ per $x\to\ x_{0}$, allora $l$ è <strong>unico</strong>.</p>
+<p><strong>Limiti notevoli</strong>
+There are some limits for whom the existence of limit and proofness is battle-tested. They are known and they are all $\frac{0}{0}$ cases, but not the last (Neplero&rsquo;s number, $1^{\infty} $).
+<em>N.B:</em> Non tutti i casi sono descritti.</p>
+<ul>
+<li>
+<p><strong>Logaritmica</strong>, con $a &gt; 0$ e $a \ne 1$:
+$$\lim_{x\to\ 0}\frac{log_{a}(1+x)}{x} = \frac{1}{ln(a)};  \lim_{f(x) \to 0}\frac{log_{a}(1+f(x))}{f(x)} = \frac{1}{ln(a)}$$
+quindi, sia $a = e$:
+$$\lim_{x\to\ 0}\frac{ln(1+x)}{x} = 1;  \lim_{f(x) \to 0}\frac{ln(1+f(x))}{f(x)} = 1$$</p>
+</li>
+<li>
+<p><strong>Exponentiale</strong>, with $a &gt; 0$:
+$$\lim_{x\to\ 0}\frac{a^x-1}{x} = ln(a);  \lim_{f(x) \to 0}\frac{a^{f(x)}-1}{f(x)} = ln(a)$$</p>
+</li>
+</ul>
+<p>quindi, sia $a = e$:
+$$\lim_{x\to\ 0}\frac{e^x-1}{x} = 1;  \lim_{f(x) \to 0}\frac{e^{f(x)}-1}{f(x)} = 1$$</p>
+<ul>
+<li>
+<p><strong>Potenza con differenza</strong> con $c \in \mathbb{R}$:
+$$\lim_{x\to\ 0}\frac{(1+x)^c-1}{x} = c;  \lim_{f(x) \to 0}\frac{(1+f(x))^c-1}{f(x)} = c$$</p>
+</li>
+<li>
+<p><strong>Numero di Neplero</strong>
+$$\lim_{x\to\ \pm\infty}(1+\frac{1}{x})^x = e;  \lim_{f(x) \to \pm\infty}(1+\frac{1}{f(x)})^{f(x)} = e$$</p>
+</li>
+</ul>
+<h3 id="conclusioni">Conclusioni</h3>
+<p>Grazie per il tuo tempo dedicatomi e se ti è piaciuto il contenuo continua a seguirmi
+nei prossimi post, commenta qui sotto se vuoi, o contattami se hai bisogno di un aiuto specifico. Pubblicherò molti altri contenuti nel mio tempo libero.</p>
+<p>A presto 👋,</p>
+<p>Lorenzo Pirro</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Equazioni e disequazioni</title>
+            <link>localhost/it/posts/eq_diseq/</link>
+            <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+            
+            <guid>localhost/it/posts/eq_diseq/</guid>
+            <description>Introduzione Equazioni e disequazioni lineari del primo ordine Equazioni lineari del secondo ordine Disequazioni lineari del secondo ordine Prodotti notevoli Equazioni lineari di ordine superiore al secondo Logaritmi Conclusioni Introduzione Salve caro lettore! Benvenuto sul mio memorandum sull&amp;rsquo;analisi matematica.
+Oggi ricorderemo per cominciare, come calcolare un&amp;rsquo;equazione o disequazione lineare generica, di qualunque ordine essa sia. Gli argomenti potrebbero sembrare futili, ma, tutto dipende da come questi vengono esposti 🙂. Cominciamo!</description>
+            <content type="html"><![CDATA[<ul>
+<li><a href="#introduzione">Introduzione</a></li>
+<li><a href="#equazioni-e-disequazioni-lineari-del-primo-ordine">Equazioni e disequazioni lineari del primo ordine</a></li>
+<li><a href="#equazioni-lineari-del-secondo-ordine">Equazioni lineari del secondo ordine</a></li>
+<li><a href="#disequazioni-lineari-del-secondo-ordine">Disequazioni lineari del secondo ordine</a></li>
+<li><a href="#prodotti-notevoli">Prodotti notevoli</a></li>
+<li><a href="#equazioni-lineari-di-ordine-superiore-al-secondo">Equazioni lineari di ordine superiore al secondo</a></li>
+<li><a href="#logaritmi">Logaritmi</a></li>
+<li><a href="#conclusioni">Conclusioni</a></li>
+</ul>
+<h3 id="introduzione">Introduzione</h3>
+<p>Salve caro lettore! Benvenuto sul mio memorandum sull&rsquo;analisi matematica.<br>
+Oggi ricorderemo per cominciare, come calcolare un&rsquo;equazione o disequazione lineare generica,
+di qualunque ordine essa sia. Gli argomenti potrebbero sembrare futili, ma, tutto
+dipende da  come questi vengono esposti 🙂. Cominciamo!</p>
+<h3 id="equazioni-e-disequazioni-lineari-del-primo-ordine">Equazioni e disequazioni lineari del primo ordine</h3>
+<p>Iniziamo facilmente ricordando che un&rsquo;equazione di primo grado è  della forma:
+$$ ax + b = 0 $$
+ha una ed una sola soluzione e si calcola semplicemente spostando i membri e gestendo
+i segni di conseguenza, invertendoli se si moltiplica o divide per uno stesso fattore. Dunque:
+$$ ax = -b; x = -\frac{b}{a}$$
+E per le disequazioni? Facile! Abbiamo solo bisogno di cambiare il segno a seconda delle
+condizioni dete sopra per l&rsquo;equazione.</p>
+<hr>
+<h3 id="equazioni-lineari-del-secondo-ordine">Equazioni lineari del secondo ordine</h3>
+<p>Date le seguenti assunzioni:</p>
+<p>$$ ax^2+bx+c, \Delta = b^2 - 4ac $$ per:</p>
+<ol>
+<li>$\Delta &gt; 0 :$ abbiamo due soluzioni in $\mathbb{R}$</li>
+<li>$\Delta = 0 :$ abbiamo due soluzioni (coincidenti) in $\mathbb{R}$</li>
+<li>$\Delta &lt; 0 :$ <strong>non</strong> abbiamo solutioni in $\mathbb{R}$ bensì in $\mathbb{C}$ invece (non trattate qui).</li>
+</ol>
+<p>Formula: $$ (sia: \Delta&gt;=0); x{_1,_2}=\frac{-b - \sqrt{b^2-4ac}}{2a} $$
+<strong>Note</strong>: alcune equazioni e disequazioni di ssecondo e terzo grado possono essere risolte rapidamente
+tramite l&rsquo;utilizzo dei <a href="#notable-products">notable products</a>. Li vedremo tra poco!</p>
+<hr>
+<h3 id="disequazioni-lineari-del-secondo-ordine">Disequazioni lineari del secondo ordine</h3>
+<p>Per le disequazioni di secondo grado, si può risolvere l&rsquo;equazione di secondo grado <em>associata</em>. Sia $a \ne 0$:</p>
+<p>$ax^2+bx+c$ e $\Delta = b^2 - 4ac,$ per:</p>
+<ol>
+<li>$\Delta &gt; 0 :$ abbiamo due soluzioni in $\mathbb{R}$, quindi la soluzione è : $x_{1} &lt; x, x &gt; x_{2}$.</li>
+<li>$\Delta = 0 :$ abbiamo due soluzioni (coincidenti) in $\mathbb{R}$, quindi la soluzione è $\forall x \ne x1,x2$ (dove $x_{1}= x_{2}$).</li>
+<li>$\Delta &lt; 0 :$ <strong>non</strong> abbiamo solutioni in $\mathbb{R}$ bensì in $\mathbb{C}$ invece, quindi la soluzione è $\forall x \in \R$. Il perché viene rimandato ad un&rsquo;altro post in futuro.</li>
+</ol>
+<hr>
+<h3 id="prodotti-notevoli">Prodotti notevoli</h3>
+<p>Esistono alcune forme <em>composte polinomiali</em> che hanno delle soluzioni dimostrate. Diamogli uno sguardo:</p>
+<ul>
+<li>$(a-b)^2 = a^2+2ab+b^2$</li>
+<li>$(a+b+c)^2 = a^2+b^2+2ab+2ac+2bc$</li>
+<li>$(a-b+c)^2 = a^2+b^2-2ab+2ac-2bc$</li>
+<li>$(a+b)^3 = a^3+3a^2b+3a^b2+b^3$</li>
+<li>$(a-b)^3 = a^3-3a^2b+3a^b2-b^3$</li>
+<li>$a^2-b^2 = (a-b)(a+b)$</li>
+<li>$a^3+b^3 = (a+b)(a^2-ab+b^2)$</li>
+<li>$a^3-b^3 = (a-b)(a^2+ab+b^2)$</li>
+</ul>
+<p>Saranno una delle armi migliori in MOLTE circostanze&hellip;</p>
+<hr>
+<h3 id="equazioni-lineari-di-ordine-superiore-al-secondo">Equazioni lineari di ordine superiore al secondo</h3>
+<p>Se nessun prodotto notevole compare (vedi sopra), allora possiamo <strong>provare</strong> <em>il mettodo di Ruffini</em>. Si, provare, in quanto non garantisce un risulato. Dovremmo averee al termine del processo:</p>
+<p>$$P(x)=(x-a)Q(x)$$ con $Q(x)$ polinomio di ordine $P(x)$-1.</p>
+<ol>
+<li>Abbiamo bisogno di calcolare $f(x)$ substituting $x$ with each divisor of $c$ until we take the result 0 (satisfied equation).</li>
+<li>When found, apply the matrix method (<a href="https://www.youmath.it/lezioni/algebra-elementare/polinomi/272-la-regola-di-ruffini.html">see here</a>). The result <strong>must be</strong> 0 for the known term.</li>
+<li>Write the result in the given form and apply the method again if necessary (but first, see if you have a <a href="#notable-products">Notable products</a>).</li>
+</ol>
+<h3 id="logaritmi">Logaritmi</h3>
+<p>L&rsquo;ultimo randez-vouz che volevo trattare riguarda i logaritmi. Ecco un insieme di regole:</p>
+<ul>
+<li>$a^{\log{_a}{b}} = b$ (definitione)</li>
+<li>$\log{_a}{b^c} = c\log{_a}{b}$ (esponente)</li>
+<li>$\log{_a}{bc} = \log{_a}{b}+\log{_a}{c}$ (prodotto)</li>
+<li>$\log{_a}{\frac{b}{c}} = \log{_a}{b}-\log{_a}{c}$ (quoziente)</li>
+<li>$\log{_a}{b} = \frac{\log{_c}{b}}{\log{_c}{a}}$ (cambio di base)</li>
+<li>$\log{_a}{b} = \frac{1}{\log{_b}{a}}$ (inversione)</li>
+</ul>
+<h3 id="conclusioni">Conclusioni</h3>
+<p>Ora hai gli strumenti per risolvere equazioni e disequazioni di ogni ordine e spero
+ti possano essere utili 🙂!
+Grazie per il tuo tempo dedicatomi e se ti è piaciuto il contenuo continua a seguirmi
+nei prossimi post, commenta qui sotto se vuoi, o contattami se hai bisogno di un aiuto specifico. Pubblicherò molti altri contenuti nel mio tempo libero.</p>
+<p>A presto 👋,</p>
+<p>Lorenzo Pirro</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

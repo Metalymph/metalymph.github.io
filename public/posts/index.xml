@@ -1,0 +1,182 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Lorenzo Pirro</title>
+        <link>localhost/posts/</link>
+        <description>Recent content in Posts on Lorenzo Pirro</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-US</language>
+        <lastBuildDate>Sun, 13 Aug 2023 00:00:00 +0000</lastBuildDate>
+        <atom:link href="localhost/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Limits and continuity</title>
+            <link>localhost/posts/limits/</link>
+            <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
+            
+            <guid>localhost/posts/limits/</guid>
+            <description>Introduction Continuity Limits forms Theorems Conclusions Introduction Continuity If $f(x)$ is defined and continuous in the limit segment we want to calculate, than we can proceed. Put the limit value inside function and see if the result is an L $\in \mathbb{R}$. A function is continue in a point if the limit from left and right gives the same value in $\mathbb{R}$. That is: $$\lim_{x\to\ x_{0}^-} f(x) = L = \lim_{x\to\ x_{0}^+} f(x)$$ A function is continue in a range (or the full $\mathbb{R}$) if it&amp;rsquo;s continue in all the range&amp;rsquo;s points.</description>
+            <content type="html"><![CDATA[<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#continuity">Continuity</a></li>
+<li><a href="#limits-forms">Limits forms</a></li>
+<li><a href="#theorems">Theorems</a></li>
+<li><a href="#conclusions">Conclusions</a></li>
+</ul>
+<h3 id="introduction">Introduction</h3>
+<h3 id="continuity">Continuity</h3>
+<p>If $f(x)$ is defined and <em>continuous</em> in the limit segment we want to calculate, than we can proceed. Put the limit value inside function and see if the result is an <em>L</em> $\in \mathbb{R}$.
+A function is continue in a point if the limit from left and right gives the same value in $\mathbb{R}$.
+That is:
+$$\lim_{x\to\ x_{0}^-} f(x) = L = \lim_{x\to\ x_{0}^+} f(x)$$
+A function is continue in a range (or the full $\mathbb{R}$)  if it&rsquo;s continue in all the range&rsquo;s points. Important to note that given two functions, the following operations give an other continue function: $$f(x) g(x),  \frac{f(x)}{g(x)}, f(x)+g(x),  f(x)-g(x),  g(f(x))$$
+Discontinuity is given by a finite value from the two limits in the same point.</p>
+<h3 id="limits-forms">Limits forms</h3>
+<p>Some limits are deetermined, that is, can be calculated <em>just-in-time</em>. Other forms are more complex
+and require the use of a theorem or more passes.
+<strong>Determinated forms</strong></p>
+<p>If <em>L</em> is $[\frac{C}{0^+}], [\frac{C}{0^-}], [\frac{\infty}{0}]$, the limit is $\pm\infty$,
+if <em>L</em> is $[\frac{C}{\infty}], [\frac{\infty}{0}]$, the limit is 0</p>
+<p><strong>Undeterminated forms</strong></p>
+<p>If <em>L</em> is $[\frac{0}{0}], [\frac{\infty}{\infty}], [\infty-\infty], [0^\infty], [0^0], [1^\infty]$ and more&hellip;the limit must be calculated with the right theorem, sometimes challenging&hellip;</p>
+<h3 id="theorems">Theorems</h3>
+<p>There are some theorems related to limits, useful to calculate some indeterminated forms. Is important to note that
+<strong>some limits don&rsquo;t exist</strong> and is essential to know if a limit exists in the <a href="#function-study">function study</a>.</p>
+<p><strong>Constant (persistent) sign theorem</strong></p>
+<p>If:</p>
+<p>$$\lim_{x\to\ x_{0}} f(x) = l \ne 0$$</p>
+<p>than, a surrounding area of $x_{0}$ exists, where <strong>both</strong> $l$ and $f(x)$ are <strong>both</strong> positive or both negative.</p>
+<p><strong>Comparing theorem</strong>
+If you have $ h(x) \le f(x) \le g(x)$ three functions defined in the surrounding area $H$ of $x_{0}$ (not defined in $x_{0}$) so, if in $H$ is always valid:</p>
+<p>$$h(x)  \le f(x) \le g(x) $$</p>
+<p>than, if the limit for $x\to\ x_{0}$ is $l$, the limit for $f(x)$ is <strong>also</strong> $l$.</p>
+<p><strong>Limit uniqueness theorem</strong>
+If $f(x)$ has limit $l$ for $x\to\ x_{0}$, than $l$ is <strong>unique</strong>.</p>
+<p><strong>Notable limits</strong>
+There are some limits for whom the existence of limit and proofness is battle-tested. They are known and they are all $\frac{0}{0}$ cases, but not the last (Neplero&rsquo;s number, $1^{\infty} $).
+<em>N.B:</em> Not all cases are shown.</p>
+<ul>
+<li><strong>Logarithmic</strong> function, with $a &gt; 0$ and $a \ne 1$:
+$$\lim_{x\to\ 0}\frac{log_{a}(1+x)}{x} = \frac{1}{ln(a)};  \lim_{f(x) \to 0}\frac{log_{a}(1+f(x))}{f(x)} = \frac{1}{ln(a)}$$</li>
+</ul>
+<p>so, with $a = e$:
+$$\lim_{x\to\ 0}\frac{ln(1+x)}{x} = 1;  \lim_{f(x) \to 0}\frac{ln(1+f(x))}{f(x)} = 1$$</p>
+<ul>
+<li><strong>Exponential</strong> function, with $a &gt; 0$:
+$$\lim_{x\to\ 0}\frac{a^x-1}{x} = ln(a);  \lim_{f(x) \to 0}\frac{a^{f(x)}-1}{f(x)} = ln(a)$$</li>
+</ul>
+<p>so, with $a = e$:
+$$\lim_{x\to\ 0}\frac{e^x-1}{x} = 1;  \lim_{f(x) \to 0}\frac{e^{f(x)}-1}{f(x)} = 1$$</p>
+<ul>
+<li>
+<p><strong>Power with difference</strong> with $c \in \mathbb{R}$:
+$$\lim_{x\to\ 0}\frac{(1+x)^c-1}{x} = c;  \lim_{f(x) \to 0}\frac{(1+f(x))^c-1}{f(x)} = c$$</p>
+</li>
+<li>
+<p><strong>Neplero&rsquo;s number</strong>
+$$\lim_{x\to\ \pm\infty}(1+\frac{1}{x})^x = e;  \lim_{f(x) \to \pm\infty}(1+\frac{1}{f(x)})^{f(x)} = e$$</p>
+</li>
+</ul>
+<h3 id="conclusions">Conclusions</h3>
+<p>Now you have a good set of sheets to resolve some limits and i hope it will be useful 🙂!
+Thanks you reading and if you like my contents, follow me on this simple, comment below, site or contact me if you need a specific help. I will publish more contents based also on the comments according with my time.</p>
+<p>See you at soon 👋,</p>
+<p>Lorenzo Pirro</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Equations and disequations</title>
+            <link>localhost/posts/eq_diseq/</link>
+            <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+            
+            <guid>localhost/posts/eq_diseq/</guid>
+            <description>Introduction First order linear equation and disequation Second order linear equations Second order linear disequations Notable products Third order or more linear equations Logarithms Conclusions Introduction Hi dear readers! Welcome on my first cheatsheet on math analysis.
+Today we&amp;rsquo;ll remember how to calculate a second or third order linear equation or disequation. We will add a quick reference on notable products! 🙂
+Let&amp;rsquo;s go!
+First order linear equation and disequation We start easily remembering that a first order equation in the form: $$ ax + b = 0 $$ has one and only one solution and we can find it simply moving the factors and executing basic algebraic operations like this: $$ ax = -b; x = -\frac{b}{a}$$ And for disequations?</description>
+            <content type="html"><![CDATA[<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#first-order-linear-equation-and-disequation">First order linear equation and disequation</a></li>
+<li><a href="#second-order-linear-equations">Second order linear equations</a></li>
+<li><a href="#second-order-linear-disequations">Second order linear disequations</a></li>
+<li><a href="#notable-products">Notable products</a></li>
+<li><a href="#third-order-or-more-linear-equations">Third order or more linear equations</a></li>
+<li><a href="#logarithms">Logarithms</a></li>
+<li><a href="#conclusions">Conclusions</a></li>
+</ul>
+<h3 id="introduction">Introduction</h3>
+<p>Hi dear readers! Welcome on my first cheatsheet on math analysis.<br>
+Today we&rsquo;ll remember how to calculate a second or third order linear equation or disequation.
+We will add a  quick reference on notable products! 🙂<br>
+Let&rsquo;s go!</p>
+<h3 id="first-order-linear-equation-and-disequation">First order linear equation and disequation</h3>
+<p>We start easily remembering that a first order equation in the form:
+$$ ax + b = 0 $$
+has one and  only one solution and we can find it simply moving the factors and executing basic algebraic operations like this:
+$$ ax = -b; x = -\frac{b}{a}$$
+And for disequations? Easy! We need only to reverse the sign &lt; to &gt; or viceversa if we apply to both members an algebraic operation
+like division or multiplication, et voilà!</p>
+<hr>
+<h3 id="second-order-linear-equations">Second order linear equations</h3>
+<p>Given the following assumptions:</p>
+<p>$$ ax^2+bx+c, \Delta = b^2 - 4ac $$ for:</p>
+<ol>
+<li>$\Delta &gt; 0 :$ we have two solutions in $\mathbb{R}$</li>
+<li>$\Delta = 0 :$ we have two solutions (same point) in $\mathbb{R}$</li>
+<li>$\Delta &lt; 0 :$ we have <strong>no</strong> solution in $\mathbb{R}$ but in $\mathbb{C}$ instead (not treated).</li>
+</ol>
+<p>Main formula: with $$ (with: \Delta&gt;=0); x{_1,_2}=\frac{-b - \sqrt{b^2-4ac}}{2a} $$
+<strong>Note</strong>: some equations and disequations of second or third order can be instantly
+resolved using <a href="#notable-products">notable products</a>.</p>
+<hr>
+<h3 id="second-order-linear-disequations">Second order linear disequations</h3>
+<p>For second order disequations, you can resolve the related second order equation and, with $a \ne 0$:</p>
+<p>$ax^2+bx+c$ and $\Delta = b^2 - 4ac,$ for:</p>
+<ol>
+<li>$\Delta &gt; 0 :$ we have two solutions in $\mathbb{R}$, so solution : $x_{1} &lt; x, x &gt; x_{2}$.</li>
+<li>$\Delta = 0 :$ we have two solutions (same point) in $\mathbb{R}$, so solution is $\forall x \ne x1,x2$ (where $x_{1}= x_{2}$).</li>
+<li>$\Delta &lt; 0 :$ we have <strong>no</strong> solution in $\mathbb{R}$ but in $\mathbb{C}$ instead, so solution is $\forall x \in \R$.</li>
+</ol>
+<hr>
+<h3 id="notable-products">Notable products</h3>
+<p>There are some <em>composed polynomials</em> which have a fixed (proofed) solutions. Let&rsquo;s take a look:</p>
+<ul>
+<li>$(a-b)^2 = a^2+2ab+b^2$</li>
+<li>$(a+b+c)^2 = a^2+b^2+2ab+2ac+2bc$</li>
+<li>$(a-b+c)^2 = a^2+b^2-2ab+2ac-2bc$</li>
+<li>$(a+b)^3 = a^3+3a^2b+3a^b2+b^3$</li>
+<li>$(a-b)^3 = a^3-3a^2b+3a^b2-b^3$</li>
+<li>$a^2-b^2 = (a-b)(a+b)$</li>
+<li>$a^3+b^3 = (a+b)(a^2-ab+b^2)$</li>
+<li>$a^3-b^3 = (a-b)(a^2+ab+b^2)$</li>
+</ul>
+<p>They will be one of the best weapons for you in MANY circumnstances&hellip;</p>
+<hr>
+<h3 id="third-order-or-more-linear-equations">Third order or more linear equations</h3>
+<p>If no notable product is found (look above), than we can <strong>try</strong> the <em>Ruffini&rsquo;s Method</em>. Yes, try, because no result is guaranteed. We shall have at end of the process:</p>
+<p>$$P(x)=(x-a)Q(x)$$ with $Q(x)$ as a polinome with $P(x)$-1 order.</p>
+<ol>
+<li>We need to calculate $f(x)$ substituting $x$ with each divisor of $c$ until we take the result 0 (satisfied equation).</li>
+<li>When found, apply the matrix method (<a href="https://www.youmath.it/lezioni/algebra-elementare/polinomi/272-la-regola-di-ruffini.html">see here</a>). The result <strong>must be</strong> 0 for the known term.</li>
+<li>Write the result in the given form and apply the method again if necessary (but first, see if you have a <a href="#notable-products">Notable products</a>).</li>
+</ol>
+<h3 id="logarithms">Logarithms</h3>
+<p>The last sheet i want to remember is about logarithms. Here a set of rules for them.</p>
+<ul>
+<li>$a^{\log{_a}{b}} = b$ (definition)</li>
+<li>$\log{_a}{b^c} = c\log{_a}{b}$ (Exponent)</li>
+<li>$\log{_a}{bc} = \log{_a}{b}+\log{_a}{c}$ (Product)</li>
+<li>$\log{_a}{\frac{b}{c}} = \log{_a}{b}-\log{_a}{c}$ (Quotient)</li>
+<li>$\log{_a}{b} = \frac{\log{_c}{b}}{\log{_c}{a}}$ (Base conversion)</li>
+<li>$\log{_a}{b} = \frac{1}{\log{_b}{a}}$ (Inversion)</li>
+</ul>
+<h3 id="conclusions">Conclusions</h3>
+<p>Now you have a good set of sheets to resolve many equations and disequations and i hope it will be useful 🙂!
+Thanks you reading and if you like my contents, follow me on this simple, comment below, site or contact me if you need a specific help. I will publish more contents based also on the comments according with my time.</p>
+<p>See you at soon 👋,</p>
+<p>Lorenzo Pirro</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

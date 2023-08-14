@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>math on Lorenzo Pirro</title>
+    <link>localhost/it/tags/math/</link>
+    <description>Recent content in math on Lorenzo Pirro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Sun, 13 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="localhost/it/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Limiti e continuità</title>
+      <link>localhost/it/posts/limits/</link>
+      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/it/posts/limits/</guid>
+      <description>Introductione Continuità Forme dei limiti Teoremi rapidi Conclusioni Introductione Un concetto essentiale dell&amp;rsquo;analisi matematica e dello studio della funzione in particolare, è rappresentato dai limiti. Vediamo in questa lezione lampo di che si tratta. Pronti?
+Continuità Se $f(x)$ è definita e continuous nel segmeento limite che vogliamo calcolare, allora possiamo procedere. Posizioniamo il valore del limite all&amp;rsquo;interno della funzione e vediamo se il risultato L $\in \mathbb{R}$. Una funzione è continua in un punto se il limite da destra e sinistro sono ambedue in $\mathbb{R}$.</description>
+    </item>
+    
+    <item>
+      <title>Equazioni e disequazioni</title>
+      <link>localhost/it/posts/eq_diseq/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/it/posts/eq_diseq/</guid>
+      <description>Introduzione Equazioni e disequazioni lineari del primo ordine Equazioni lineari del secondo ordine Disequazioni lineari del secondo ordine Prodotti notevoli Equazioni lineari di ordine superiore al secondo Logaritmi Conclusioni Introduzione Salve caro lettore! Benvenuto sul mio memorandum sull&amp;rsquo;analisi matematica.
+Oggi ricorderemo per cominciare, come calcolare un&amp;rsquo;equazione o disequazione lineare generica, di qualunque ordine essa sia. Gli argomenti potrebbero sembrare futili, ma, tutto dipende da come questi vengono esposti 🙂. Cominciamo!</description>
+    </item>
+    
+  </channel>
+</rss>
