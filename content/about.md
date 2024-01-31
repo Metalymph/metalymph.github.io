@@ -7,12 +7,11 @@ images:
 
 ### Hi! Thanks so much for reading about me 🤩
 
-I'm a CS & software developer with a focus on backend systems and programming languages. I like experimenting and learn with new languages and technologies.\
-For my degree I've discussed a model based on types derivations on linear aggregate type-system with explicit ownership, in order to proof Rust borrow checker safety in single thread modality (far before the release of the official Rust tech spec).\
-In time, I've developed some Restful services, Telegram Bots, Cripto-treading experimental bots, simple compilers components. Currently my main languages are Python and Go and I’m using them in different contexts from web backend services to CLI apps and also scripting but I also like the Rust concept and projecting myself towards Mojo.\
-Only to be clear and honest, I'm not a Java/C/C++/Swift dev, I've only used them in academic or personal small toy projects in time.
-Long time guitarist, music is a big part of my life and I’m a sport lover in the free time.\
-For friends also a special wines researcher.
+I'm a CS & Developer with a focus on programming languages, and passion for Apple platforms and backend services. I like experimenting and learn with new languages and technologies. For my degree I've discussed a model based on types derivations in order to proof Rust borrow checker safety in single thread modality (far before the release of the official Rust tech spec).
+In time, I've developed some Restful services, Telegram Bots & server-side services, Cripto-treading experimental bots, simple compilers modules. I use languages like Go, Swift, Python and currently I am interested in Hylo as a new language and modern programming model.
+Currently I have more focus on Swift environment.
+The concept of programming language itself is not a limit for me, but I'm decidedly not a Java/C++/Php dev neither a frontend web dev; I've only used them in academic or personal small projects in time years ago.
+Long time guitarist, music is a big part of my life and I’m a sport lover in the free time. For friends also a special wines researcher.
 
 ### Is this a blog, a portfolio, or whatever?
 
